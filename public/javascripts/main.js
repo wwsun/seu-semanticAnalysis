@@ -4,7 +4,7 @@
         height = 800 - margin.top - margin.bottom;
 
     var formatNumber = d3.format(",.0f"),
-        format = function(d) { return formatNumber(d) + " TWh"; },
+        format = function(d) { return formatNumber(d) + " s"; },
         color = d3.scale.category20();
 
     var svg = d3.select("#chart").append("svg")
