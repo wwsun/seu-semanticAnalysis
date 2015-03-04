@@ -1,0 +1,19 @@
+{
+  "nodes":[
+    {"name": "/"},
+    {"name": "/search"},
+    {"name": "/ad"},
+    {"name": "/product"},
+    {"name": "/cat"},
+    {"name": "/cat/comp"}
+  ],
+  "links":[
+    {"source": 0, "target": 1, "value": 15},
+    {"source": 0, "target": 2, "value": 20},
+    {"source": 1, "target": 3, "value": 25},
+    {"source": 0, "target": 4, "value": 25},
+    {"source": 3, "target": 5, "value": 60},
+    {"source": 4, "target": 5, "value": 25},
+    {"source": 1, "target": 5, "value": 5}
+  ]
+}
