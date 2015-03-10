@@ -1,3 +1,7 @@
-.idea/
-
+# front end
+front-end/.idea/
 bower_components/
+
+# back end
+back-end/.idea/
+back-end/target/
