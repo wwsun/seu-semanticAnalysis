@@ -50,7 +50,10 @@ public class LogDAO {
         while(cursor.hasNext()) {
             DBObject item = cursor.next();
             singleSessionSequence.add(item);
+            //System.out.println(item.get("session_seq" + " | " ));
         }
+
+        cursor.close();
 
         return singleSessionSequence;
     }
