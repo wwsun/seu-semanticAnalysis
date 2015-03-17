@@ -1,0 +1,13 @@
+{
+  "name": "seu-visLog-path-fe",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wwsun/seu-visLog-path",
+  "authors": [
+    "Weiwei SUN <ww.sun@outlook.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "d3": "~3.5.5",
+    "bootstrap": "~3.3.4"
+  }
+}
