@@ -1,6 +1,4 @@
-Internet Analysis - Joint Project
-
-==========
+# Internet Analysis - Joint Project
 
 ## Prerequisties
 
